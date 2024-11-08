@@ -1,5 +1,9 @@
 # pyTask
 
+[![Build Status](https://github.com/lucianoigit/pyTask/actions/workflows/ci.yml/badge.svg)](https://github.com/lucianoigit/pyTask/actions)
+[![Documentation Status](https://readthedocs.org/projects/pytask/badge/?version=latest)](https://pytask.readthedocs.io/)
+[![MIT License](https://img.shields.io/github/license/lucianoigit/pyTask)](LICENSE)
+
 `pyTask` is a lightweight library for running background tasks and offloading work to separate threads, making it easy to execute tasks asynchronously and improve the responsiveness of your applications. Designed with simplicity and flexibility in mind, `pyTask` is perfect for applications that need a straightforward solution for handling background tasks.
 
 ## Features
@@ -12,9 +16,11 @@
 ## Installation
 
 Install `pyTask` via pip:
+
 ```bash
 
-``` 
+```
+
 Or, clone the repository and install dependencies
 
 ```bash
@@ -44,6 +50,7 @@ print(f"Final result: {result}")
 
 
 ```
+
 ## Usage
 
 ```python
@@ -58,6 +65,3 @@ print(f"Multiplication result: {result}")
 
 
 ```
-
-
-

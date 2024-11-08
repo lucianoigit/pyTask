@@ -1,6 +1,6 @@
 
 
-from src.pyTask.task import Task
+from pyTask import Task
 
 
 def mi_funcion(a, b):

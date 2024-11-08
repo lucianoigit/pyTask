@@ -1,0 +1,54 @@
+# Ignore virtual environment folder
+env/
+.venv/
+venv/
+
+# Byte-compiled files
+__pycache__/
+*.py[cod]
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Python egg files
+*.egg-info/
+.eggs/
+
+# Logs and local environment files
+*.log
+*.env
+
+# Distribution / Packaging
+build/
+dist/
+*.wheel
+*.egg
+*.egg-info
+
+# IDE-specific files
+.vscode/
+.idea/
+
+# PyInstaller
+*.spec
+
+# Test coverage reports
+.coverage
+.tox/
+.nox/
+.cache/
+
+# Sphinx documentation
+docs/_build/
+
+# Pytest
+.pytest_cache/
+
+# MyPy
+.mypy_cache/
+
+# Ignore coverage reports
+htmlcov/
+.coverage.*
+*.cover
+*.cov
